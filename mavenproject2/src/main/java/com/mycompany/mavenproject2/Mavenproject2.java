@@ -54,8 +54,9 @@ public class Mavenproject2 {
         System.out.println("4. El jugador que termine con la papa caliente en las manos sera eliminado.");
         System.out.println("5. Este proceso se repetira hasta que quede un solo jugador.");
         System.out.println("6. El ultimo jugador restante sera el ganador.");
-        Utils.LimpiarConsola.Limpiar();
         
+        Utils.LimpiarConsola.Limpiar();
+
         int ronda = 1;
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
@@ -84,7 +85,6 @@ public class Mavenproject2 {
 
             // Guardamos al jugador eliminado y lo eliminamos de la lista
             lista.EliminarJugadorYGuardar(jugadorFinal, perdedores, ronda);
-
             ronda++;
         }
 
