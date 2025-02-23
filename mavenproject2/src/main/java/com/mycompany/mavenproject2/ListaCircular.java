@@ -2,8 +2,11 @@
 package com.mycompany.mavenproject2;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Random;
 
 public class ListaCircular {
     Nodo cabeza;
@@ -74,5 +77,27 @@ public class ListaCircular {
             }
         }
         tamanio--;
+    }
+    
+    public static Nodo SeleccionarJugadorAlAzar(ListaCircular lista) {
+        if (lista.tamanio == 0) {
+            return null;  
+        }
+        Random random = new Random();
+        int indiceAleatorio = random.nextInt(lista.tamanio);
+        Nodo jugador = lista.cabeza;
+        for (int i = 0; i < indiceAleatorio; i++) {
+            jugador = jugador.siguiente;
+        }
+        return jugador;  
+    }
+    
+    public void EliminarJugadorYGuardar(Nodo jugadorEliminado, String perdedores, int ronda) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(perdedores, true))) {
+            writer.write(jugadorEliminado.jugador.getNombre() + " - Ronda " + ronda + "\n");
+        } catch (IOException e) {
+            System.out.println("Error al escribir en el archivo de perdedores: " + e.getMessage());
+        }
+        EliminarJugador(jugadorEliminado);
     }
 }
