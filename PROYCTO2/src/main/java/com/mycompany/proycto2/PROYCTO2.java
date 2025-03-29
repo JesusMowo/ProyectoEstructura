@@ -4,8 +4,6 @@
 
 package com.mycompany.proycto2;
 import java.io.*;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 /**
  *
  * @author aleja
@@ -13,25 +11,29 @@ import java.time.format.DateTimeFormatter;
 public class PROYCTO2 {
 
     public static void main(String[] args) {
-        Cola cola = new Cola(); 
+        Cola cola = new Cola();  
+        Pila pila = new Pila();  
 
-        // Cargar los clientes desde el archivo directamente a la cola
-        cargarClientesEnCola("archivos/Clientes.in", cola);
+        cargarClientesEnCola("archivos/clientes.in", cola);
 
-        // Tiempo total de atención disponible en minutos (de 8:00 AM a 3:30 PM, es decir, 450 minutos)
+        // Tiempo total disponible en minutos (de 8:00 am a 3:30 pm 450 minutos)
         int tiempoDisponible = 450;  
 
         while (tiempoDisponible > 0 && !cola.estaVacia()) {
             Cliente cliente = cola.desencolar(); 
 
+            // comprobacion si hay suficiente tiempo para atender a este cliente
             if (cliente.tiempoTotalSolicitudes <= tiempoDisponible) {
+                // Atendemos al cliente
                 System.out.println("Atendiendo a: " + cliente.nombre);
                 System.out.println("Solicitudes: " + cliente.solicitudes);
-                System.out.println("Tiempo total de atencion: " + cliente.tiempoTotalSolicitudes + " minutos");
+                System.out.println("Tiempo total de atención: " + cliente.tiempoTotalSolicitudes + " minutos");
 
+                // reduciendo el tiempo disponible segun el tiempo que se tardo en atender al cliente
                 tiempoDisponible -= cliente.tiempoTotalSolicitudes;
 
-                guardarClienteAtendido(cliente);
+                // guardando al cliente en la pila
+                pila.apilar(cliente);
                 System.out.println("Tiempo restante: " + tiempoDisponible + " minutos");
             } else {
                 System.out.println("No hay suficiente tiempo para atender a: " + cliente.nombre);
@@ -39,10 +41,12 @@ public class PROYCTO2 {
             }
         }
 
+        pila.guardarClientesAtendidos();
+
         if (tiempoDisponible == 0) {
-            System.out.println("Se ha alcanzado el tiempo límite de atencion (3:30 PM).");
+            System.out.println("Se ha alcanzado el tiempo límite de atención (3:30 PM).");
         } else {
-            System.out.println("La jornada de atencion ha finalizado.");
+            System.out.println("La jornada de atención ha finalizado.");
         }
     }
 
@@ -60,21 +64,6 @@ public class PROYCTO2 {
 
                 cola.encolar(cliente);
             }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private static void guardarClienteAtendido(Cliente cliente) {
-        LocalDate fechaActual = LocalDate.now();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-        String fechaFormateada = fechaActual.format(formatter);
-
-        String nombreArchivo = "taquilla" + fechaFormateada + ".log";
-
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(nombreArchivo, true))) {
-            writer.write(cliente.toString());
-            writer.newLine();  
         } catch (IOException e) {
             e.printStackTrace();
         }

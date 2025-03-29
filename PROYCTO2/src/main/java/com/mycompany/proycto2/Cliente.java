@@ -22,16 +22,6 @@ public class Cliente {
         this.tiempoTotalSolicitudes = 0;
     }
 
-    // Métodos de acceso
-    public String getNombre() {
-        return nombre;
-    }
-
-    public List<String> getSolicitudes() {
-        return solicitudes;
-    }
-    
-
     public void agregarSolicitud(String solicitud) {
         solicitudes.add(solicitud);
         actualizarTiempoTotal(solicitud);
