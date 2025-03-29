@@ -6,6 +6,10 @@ import java.io.IOException;
 import java.util.Random;
 import java.util.Scanner;
 
+
+// elaborado por Jesus Mata y Diego Costa uwu
+
+
 public class Mavenproject2 {
 
     public static void main(String[] args) {

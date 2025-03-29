@@ -1,0 +1,61 @@
+Cliente 1, Pago de servicios, Deposito
+Cliente 2, Retiro, Actualizacion de libretas
+Cliente 3, Consulta de movimientos, Actualizacion de libretas
+Cliente 4, Pago de servicios, Deposito
+Cliente 5, Deposito
+Cliente 6, Retiro, Consulta de movimientos, Pago de servicios, Actualizacion de libretas, Deposito
+Cliente 7, Consulta de movimientos, Deposito, Actualizacion de libretas
+Cliente 8, Deposito, Retiro
+Cliente 9, Actualizacion de libretas, Deposito
+Cliente 10, Actualizacion de libretas, Retiro, Consulta de movimientos
+Cliente 11, Retiro
+Cliente 12, Retiro, Consulta de movimientos, Actualizacion de libretas, Deposito
+Cliente 13, Deposito, Pago de servicios, Actualizacion de libretas, Consulta de movimientos, Retiro
+Cliente 14, Deposito, Pago de servicios, Retiro, Actualizacion de libretas
+Cliente 15, Deposito, Actualizacion de libretas, Retiro, Pago de servicios
+Cliente 16, Pago de servicios, Deposito, Actualizacion de libretas, Consulta de movimientos, Retiro
+Cliente 17, Consulta de movimientos, Pago de servicios
+Cliente 18, Retiro, Pago de servicios, Actualizacion de libretas
+Cliente 19, Deposito, Actualizacion de libretas, Pago de servicios, Retiro
+Cliente 20, Pago de servicios
+Cliente 21, Consulta de movimientos, Retiro
+Cliente 22, Pago de servicios, Actualizacion de libretas
+Cliente 23, Consulta de movimientos, Deposito, Actualizacion de libretas, Retiro, Pago de servicios
+Cliente 24, Pago de servicios, Actualizacion de libretas
+Cliente 25, Actualizacion de libretas, Retiro
+Cliente 26, Deposito, Actualizacion de libretas, Pago de servicios, Retiro, Consulta de movimientos
+Cliente 27, Actualizacion de libretas, Consulta de movimientos, Retiro, Deposito
+Cliente 28, Consulta de movimientos, Pago de servicios, Retiro, Actualizacion de libretas
+Cliente 29, Pago de servicios
+Cliente 30, Retiro, Deposito, Pago de servicios, Consulta de movimientos, Actualizacion de libretas
+Cliente 31, Consulta de movimientos, Retiro
+Cliente 32, Retiro, Pago de servicios
+Cliente 33, Consulta de movimientos, Deposito, Retiro, Pago de servicios
+Cliente 34, Retiro, Actualizacion de libretas, Pago de servicios, Deposito, Consulta de movimientos
+Cliente 35, Retiro, Consulta de movimientos, Actualizacion de libretas
+Cliente 36, Deposito
+Cliente 37, Pago de servicios, Deposito, Consulta de movimientos
+Cliente 38, Consulta de movimientos, Pago de servicios
+Cliente 39, Actualizacion de libretas, Retiro, Consulta de movimientos, Pago de servicios
+Cliente 40, Retiro, Deposito
+Cliente 41, Pago de servicios
+Cliente 42, Consulta de movimientos, Deposito, Retiro
+Cliente 43, Pago de servicios
+Cliente 44, Actualizacion de libretas
+Cliente 45, Pago de servicios, Retiro, Actualizacion de libretas, Consulta de movimientos, Deposito
+Cliente 46, Deposito
+Cliente 47, Deposito, Actualizacion de libretas
+Cliente 48, Actualizacion de libretas, Consulta de movimientos
+Cliente 49, Retiro, Actualizacion de libretas, Deposito
+Cliente 50, Consulta de movimientos, Retiro, Actualizacion de libretas, Deposito, Pago de servicios
+Cliente 51, Consulta de movimientos, Deposito, Actualizacion de libretas
+Cliente 52, Retiro, Pago de servicios
+Cliente 53, Consulta de movimientos, Pago de servicios
+Cliente 54, Consulta de movimientos, Pago de servicios, Retiro, Actualizacion de libretas, Deposito
+Cliente 55, Pago de servicios
+Cliente 56, Retiro, Actualizacion de libretas, Pago de servicios, Consulta de movimientos
+Cliente 57, Pago de servicios, Deposito, Consulta de movimientos, Actualizacion de libretas
+Cliente 58, Retiro
+Cliente 59, Actualizacion de libretas, Pago de servicios
+Cliente 60, Actualizacion de libretas
+Cliente 61, Actualizacion de libretas, Retiro

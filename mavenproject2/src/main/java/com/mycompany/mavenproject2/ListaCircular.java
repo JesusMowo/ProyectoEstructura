@@ -16,7 +16,6 @@ public class ListaCircular {
         this.cabeza = null;
         this.tamanio = 0;
     }
-
     public void AgregarJugador(Jugador jugador) {
         Nodo nuevoNodo = new Nodo(jugador);
         
