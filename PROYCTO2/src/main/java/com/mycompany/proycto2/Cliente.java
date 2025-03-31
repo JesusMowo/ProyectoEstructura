@@ -4,26 +4,24 @@
  */
 package com.mycompany.proycto2;
 
-import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
+
 /**
  *
  * @author aleja
  */
 public class Cliente {
     public String nombre;
-    public List<String> solicitudes;
+    public ListaSimple solicitudes;
     public int tiempoTotalSolicitudes;
     // Constructor
     public Cliente(String nombre) {
         this.nombre = nombre;
-        this.solicitudes = new ArrayList<>();
+        this.solicitudes = new ListaSimple();
         this.tiempoTotalSolicitudes = 0;
     }
 
     public void agregarSolicitud(String solicitud) {
-        solicitudes.add(solicitud);
+        solicitudes.agregar(solicitud);
         actualizarTiempoTotal(solicitud);
     }
 
@@ -37,31 +35,9 @@ public class Cliente {
             default -> System.out.println("Solicitud no reconocida: " + solicitud);
         }
     }
-     
-    public static List<Cliente> cargarClientesDesdeArchivo(String rutaArchivo) {
-        List<Cliente> clientes = new ArrayList<>();
-        try (BufferedReader br = new BufferedReader(new FileReader(rutaArchivo))) {
-            String linea;
-            while ((linea = br.readLine()) != null) {
-                String[] partes = linea.split(",");
-                String nombre = partes[0].trim(); 
-                Cliente cliente = new Cliente(nombre);
-
-                // Agregar solicitudes
-                for (int i = 1; i < partes.length; i++) {
-                    cliente.agregarSolicitud(partes[i].trim()); 
-                }
-
-                clientes.add(cliente);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return clientes;
-    }
     
     @Override
     public String toString() {
-        return "Cliente: " + nombre + ", Tiempo Total Solicitudes: " + tiempoTotalSolicitudes + " minutos";
+        return "Cliente: " + nombre + ", Solicitudes: [" + solicitudes.toString() + "], Tiempo Total: " + tiempoTotalSolicitudes + " minutos";
     }
 }

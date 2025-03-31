@@ -27,7 +27,7 @@ public class PROYCTO2 {
                 // Atendemos al cliente
                 System.out.println("Atendiendo a: " + cliente.nombre);
                 System.out.println("Solicitudes: " + cliente.solicitudes);
-                System.out.println("Tiempo total de atención: " + cliente.tiempoTotalSolicitudes + " minutos");
+                System.out.println("Tiempo total de atencion: " + cliente.tiempoTotalSolicitudes + " minutos");
 
                 // reduciendo el tiempo disponible segun el tiempo que se tardo en atender al cliente
                 tiempoDisponible -= cliente.tiempoTotalSolicitudes;
@@ -44,9 +44,9 @@ public class PROYCTO2 {
         pila.guardarClientesAtendidos();
 
         if (tiempoDisponible == 0) {
-            System.out.println("Se ha alcanzado el tiempo límite de atención (3:30 PM).");
+            System.out.println("Se ha alcanzado el tiempo limite de atencion (3:30 PM).");
         } else {
-            System.out.println("La jornada de atención ha finalizado.");
+            System.out.println("La jornada de atencion ha finalizado.");
         }
     }
 

@@ -1,0 +1,49 @@
+Cliente: Cliente 49, Solicitudes: [Retiro, Actualizacion de libretas, Deposito], Tiempo Total: 12 minutos
+Cliente: Cliente 48, Solicitudes: [Actualizacion de libretas, Consulta de movimientos], Tiempo Total: 7 minutos
+Cliente: Cliente 47, Solicitudes: [Deposito, Actualizacion de libretas], Tiempo Total: 8 minutos
+Cliente: Cliente 46, Solicitudes: [Deposito], Tiempo Total: 3 minutos
+Cliente: Cliente 45, Solicitudes: [Pago de servicios, Retiro, Actualizacion de libretas, Consulta de movimientos, Deposito], Tiempo Total: 16 minutos
+Cliente: Cliente 44, Solicitudes: [Actualizacion de libretas], Tiempo Total: 5 minutos
+Cliente: Cliente 43, Solicitudes: [Pago de servicios], Tiempo Total: 2 minutos
+Cliente: Cliente 42, Solicitudes: [Consulta de movimientos, Deposito, Retiro], Tiempo Total: 9 minutos
+Cliente: Cliente 41, Solicitudes: [Pago de servicios], Tiempo Total: 2 minutos
+Cliente: Cliente 40, Solicitudes: [Retiro, Deposito], Tiempo Total: 7 minutos
+Cliente: Cliente 39, Solicitudes: [Actualizacion de libretas, Retiro, Consulta de movimientos, Pago de servicios], Tiempo Total: 13 minutos
+Cliente: Cliente 38, Solicitudes: [Consulta de movimientos, Pago de servicios], Tiempo Total: 4 minutos
+Cliente: Cliente 37, Solicitudes: [Pago de servicios, Deposito, Consulta de movimientos], Tiempo Total: 7 minutos
+Cliente: Cliente 36, Solicitudes: [Deposito], Tiempo Total: 3 minutos
+Cliente: Cliente 35, Solicitudes: [Retiro, Consulta de movimientos, Actualizacion de libretas], Tiempo Total: 11 minutos
+Cliente: Cliente 34, Solicitudes: [Retiro, Actualizacion de libretas, Pago de servicios, Deposito, Consulta de movimientos], Tiempo Total: 16 minutos
+Cliente: Cliente 33, Solicitudes: [Consulta de movimientos, Deposito, Retiro, Pago de servicios], Tiempo Total: 11 minutos
+Cliente: Cliente 32, Solicitudes: [Retiro, Pago de servicios], Tiempo Total: 6 minutos
+Cliente: Cliente 31, Solicitudes: [Consulta de movimientos, Retiro], Tiempo Total: 6 minutos
+Cliente: Cliente 30, Solicitudes: [Retiro, Deposito, Pago de servicios, Consulta de movimientos, Actualizacion de libretas], Tiempo Total: 16 minutos
+Cliente: Cliente 29, Solicitudes: [Pago de servicios], Tiempo Total: 2 minutos
+Cliente: Cliente 28, Solicitudes: [Consulta de movimientos, Pago de servicios, Retiro, Actualizacion de libretas], Tiempo Total: 13 minutos
+Cliente: Cliente 27, Solicitudes: [Actualizacion de libretas, Consulta de movimientos, Retiro, Deposito], Tiempo Total: 14 minutos
+Cliente: Cliente 26, Solicitudes: [Deposito, Actualizacion de libretas, Pago de servicios, Retiro, Consulta de movimientos], Tiempo Total: 16 minutos
+Cliente: Cliente 25, Solicitudes: [Actualizacion de libretas, Retiro], Tiempo Total: 9 minutos
+Cliente: Cliente 24, Solicitudes: [Pago de servicios, Actualizacion de libretas], Tiempo Total: 7 minutos
+Cliente: Cliente 23, Solicitudes: [Consulta de movimientos, Deposito, Actualizacion de libretas, Retiro, Pago de servicios], Tiempo Total: 16 minutos
+Cliente: Cliente 22, Solicitudes: [Pago de servicios, Actualizacion de libretas], Tiempo Total: 7 minutos
+Cliente: Cliente 21, Solicitudes: [Consulta de movimientos, Retiro], Tiempo Total: 6 minutos
+Cliente: Cliente 20, Solicitudes: [Pago de servicios], Tiempo Total: 2 minutos
+Cliente: Cliente 19, Solicitudes: [Deposito, Actualizacion de libretas, Pago de servicios, Retiro], Tiempo Total: 14 minutos
+Cliente: Cliente 18, Solicitudes: [Retiro, Pago de servicios, Actualizacion de libretas], Tiempo Total: 11 minutos
+Cliente: Cliente 17, Solicitudes: [Consulta de movimientos, Pago de servicios], Tiempo Total: 4 minutos
+Cliente: Cliente 16, Solicitudes: [Pago de servicios, Deposito, Actualizacion de libretas, Consulta de movimientos, Retiro], Tiempo Total: 16 minutos
+Cliente: Cliente 15, Solicitudes: [Deposito, Actualizacion de libretas, Retiro, Pago de servicios], Tiempo Total: 14 minutos
+Cliente: Cliente 14, Solicitudes: [Deposito, Pago de servicios, Retiro, Actualizacion de libretas], Tiempo Total: 14 minutos
+Cliente: Cliente 13, Solicitudes: [Deposito, Pago de servicios, Actualizacion de libretas, Consulta de movimientos, Retiro], Tiempo Total: 16 minutos
+Cliente: Cliente 12, Solicitudes: [Retiro, Consulta de movimientos, Actualizacion de libretas, Deposito], Tiempo Total: 14 minutos
+Cliente: Cliente 11, Solicitudes: [Retiro], Tiempo Total: 4 minutos
+Cliente: Cliente 10, Solicitudes: [Actualizacion de libretas, Retiro, Consulta de movimientos], Tiempo Total: 11 minutos
+Cliente: Cliente 9, Solicitudes: [Actualizacion de libretas, Deposito], Tiempo Total: 8 minutos
+Cliente: Cliente 8, Solicitudes: [Deposito, Retiro], Tiempo Total: 7 minutos
+Cliente: Cliente 7, Solicitudes: [Consulta de movimientos, Deposito, Actualizacion de libretas], Tiempo Total: 10 minutos
+Cliente: Cliente 6, Solicitudes: [Retiro, Consulta de movimientos, Pago de servicios, Actualizacion de libretas, Deposito], Tiempo Total: 16 minutos
+Cliente: Cliente 5, Solicitudes: [Deposito], Tiempo Total: 3 minutos
+Cliente: Cliente 4, Solicitudes: [Pago de servicios, Deposito], Tiempo Total: 5 minutos
+Cliente: Cliente 3, Solicitudes: [Consulta de movimientos, Actualizacion de libretas], Tiempo Total: 7 minutos
+Cliente: Cliente 2, Solicitudes: [Retiro, Actualizacion de libretas], Tiempo Total: 9 minutos
+Cliente: Cliente 1, Solicitudes: [Pago de servicios, Deposito], Tiempo Total: 5 minutos

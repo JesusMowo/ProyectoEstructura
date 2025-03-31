@@ -51,10 +51,9 @@ public class Pila {
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(nombreArchivo, true))) {
             while (!estaVacia()) {
-                Cliente clienteAtendido = desapilar();  // Obtener y eliminar el cliente de la cima
-                // Escribir la información del cliente en el archivo
+                Cliente clienteAtendido = desapilar();  
                 writer.write(clienteAtendido.toString());
-                writer.newLine();  // Salto de línea después de cada cliente
+                writer.newLine(); 
             }
         } catch (IOException e) {
             e.printStackTrace();
